@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Controle Notas</string>
+
+    <!-- Controle Notas -->
+    <string name="cadastrar">Cadastrar</string>
+    <string name="pesquisar">Pesquisas</string>
+    <string name="sair">Sair</string>
+    <string name="instituicao">Instituição</string>
+    <string name="turma">Turma</string>
+    <string name="aluno">Aluno</string>
+</resources>
