@@ -17,11 +17,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnPesquisar"
-        android:text="@string/pesquisar"/>
+        android:text="@string/relatorios"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSair"
-        android:text="@string/sair"/>
+        android:id="@+id/btnLancarNotas"
+        android:text="@string/lancar_nota"/>
 </LinearLayout>

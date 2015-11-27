@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         //joaoCod
         findViewById(R.id.btnCadastrar).setOnClickListener(intentCadastrar());
         findViewById(R.id.btnPesquisar).setOnClickListener(intentPesquisar());
-        //findViewById(R.id.btnSair).setOnClickListener(sair());
+        findViewById(R.id.btnLancarNotas).setOnClickListener(irLancarNotas());
     }
 
     //joaoCod
@@ -34,6 +34,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, PesquisarActivity.class);
+                startActivity(intent);
+            }
+        };
+    }
+
+    //joaoCod
+    private View.OnClickListener irLancarNotas(){
+        return new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LancaNotasActivity.class);
+                startActivity(intent);
             }
         };
     }
