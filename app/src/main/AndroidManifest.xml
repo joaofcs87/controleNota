@@ -19,7 +19,10 @@
         </activity>
         <activity android:name=".PesquisarActivity" >
         </activity>
-        <activity android:name=".CadastraInstituicaoActivity" >
+        <activity
+            android:name=".CadastraInstituicaoActivity"
+            android:label="@string/title_activity_cadastra_instituicao"
+            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity android:name=".CadastraTurmaActivity" >
         </activity>
@@ -34,6 +37,13 @@
         <activity android:name=".RelatorioAlunoActivity" >
         </activity>
         <activity android:name=".RelatorioSituacaoActivity" >
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".ListaInstituicaoActivity" >
         </activity>
     </application>
 

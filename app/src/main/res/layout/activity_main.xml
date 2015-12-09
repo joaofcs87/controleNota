@@ -24,4 +24,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnLancarNotas"
         android:text="@string/lancar_nota"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnIrBlankActivity"
+        android:text="ir para activity"/>
 </LinearLayout>

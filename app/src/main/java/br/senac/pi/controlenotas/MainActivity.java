@@ -15,7 +15,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnCadastrar).setOnClickListener(intentCadastrar());
         findViewById(R.id.btnPesquisar).setOnClickListener(intentPesquisar());
         findViewById(R.id.btnLancarNotas).setOnClickListener(irLancarNotas());
+
     }
+
 
     //joaoCod
     private View.OnClickListener intentCadastrar(){
